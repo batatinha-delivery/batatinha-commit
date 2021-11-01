@@ -1,0 +1,9 @@
+[
+  {
+    "name": "IFood Lint",
+    "type": "misc",
+    "critical": false,
+    "support": "Engineering",
+    "skip_validations": ["jenkinsfile", "ifood-tools"]
+  }
+]

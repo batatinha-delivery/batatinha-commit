@@ -1,0 +1,20 @@
+# Modules
+node_modules
+
+# docs folder
+__docs__
+
+# reports folder
+__reports__
+stats.html
+
+# build folders
+dist
+cjs
+
+# Mac Specific files
+.DS_Store
+
+# Yalc
+.yalc
+yalc.lock

@@ -1,0 +1,61 @@
+apiVersion: ifood/v1beta1
+kind: Repository
+metadata:
+  costCenter: restaurant
+  tribe: restaurant
+  squad: channels
+  team:
+    alias: channels-front-team
+    channel: squad-channels
+    email: fernando.maia@ifood.com.br
+    owner: fernando.maia
+  tags:
+    - micro-frontend
+    - typescript
+spec:
+  contents:
+    - name: "@ifood/commitlint-config"
+      description: The iFood's commitlint shared config
+      lifecycle: development
+      type: other
+      subType:
+        - tool
+      impactLevel: 5
+      deployment:
+        type: none
+        channel: ifood-npm-releases
+        owners:
+          - fernando.maia
+      certifications:
+        - name: IRC-MTDT
+          version: v1.1
+    - name: "@ifood/cz-conventional-changelog"
+      description: The iFood's cz-cli shared config
+      lifecycle: development
+      type: other
+      subType:
+        - tool
+      impactLevel: 5
+      deployment:
+        type: none
+        channel: ifood-npm-releases
+        owners:
+          - fernando.maia
+      certifications:
+        - name: IRC-MTDT
+          version: v1.1
+    - name: "@ifood/conventional-changelog-unreleased"
+      description: A CLI for generating changelog for the unreleased version
+      lifecycle: development
+      type: other
+      subType:
+        - tool
+      impactLevel: 5
+      deployment:
+        type: none
+        channel: ifood-npm-releases
+        owners:
+          - fernando.maia
+      certifications:
+        - name: IRC-MTDT
+          version: v1.1

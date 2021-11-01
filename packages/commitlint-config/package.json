@@ -1,0 +1,17 @@
+{
+  "name": "@ifood/commitlint-config",
+  "version": "2.0.0",
+  "description": "iFood's commitlint config",
+  "author": "Fernando Maia <fernando.maia@ifood.com.br>",
+  "license": "ISC",
+  "main": "index.js",
+  "peerDependencies": {
+    "@commitlint/cli": ">= 8"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^9.0.0"
+  },
+  "dependencies": {
+    "@commitlint/config-angular": "^9.0.0"
+  }
+}
