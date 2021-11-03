@@ -14,7 +14,7 @@ metadata:
     - typescript
 spec:
   contents:
-    - name: "@ifood/commitlint-config"
+    - name: "@ifood/commit/commitlint-config"
       description: The iFood's commitlint shared config
       lifecycle: development
       type: other
@@ -29,7 +29,7 @@ spec:
       certifications:
         - name: IRC-MTDT
           version: v1.1
-    - name: "@ifood/cz-conventional-changelog"
+    - name: "@ifood/commit/cz-conventional-changelog"
       description: The iFood's cz-cli shared config
       lifecycle: development
       type: other
@@ -44,7 +44,7 @@ spec:
       certifications:
         - name: IRC-MTDT
           version: v1.1
-    - name: "@ifood/conventional-changelog-unreleased"
+    - name: "@ifood/commit/conventional-changelog-unreleased"
       description: A CLI for generating changelog for the unreleased version
       lifecycle: development
       type: other
