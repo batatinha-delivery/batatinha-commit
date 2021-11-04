@@ -6,15 +6,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "ifood-commit",
-  tagline: "Ifood commit pattern",
-  url: "https://ifood.github.io",
-  baseUrl: "/ifood-commit/",
+  title: "batatinha-commit",
+  tagline: "batatinha commit pattern",
+  url: "https://batatinha-delivery.github.io",
+  baseUrl: "/batatinha-commit/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "ifood", // Usually your GitHub org/user name.
-  projectName: "ifood-commit", // Usually your repo name.
+  organizationName: "batatinha-delivery", // Usually your GitHub org/user name.
+  projectName: "batatinha-commit", // Usually your repo name.
 
   presets: [
     [
@@ -43,9 +43,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "ifood-commit",
+        title: "batatinha-commit",
         logo: {
-          alt: "ifood-commit",
+          alt: "batatinha-commit",
           src: "img/logo.svg",
         },
         items: [
@@ -57,7 +57,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/ifood/ifood-commit",
+            href: "https://github.com/batatinha-delivery/batatinha-commit",
             label: "GitHub",
             position: "right",
           },
@@ -80,7 +80,7 @@ const config = {
             items: [
               {
                 label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/ifood-commit",
+                href: "https://stackoverflow.com/questions/tagged/batatinha-commit",
               },
               {
                 label: "Twitter",
@@ -97,7 +97,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/ifood/ifood-commit",
+                href: "https://github.com/batatinha-delivery/batatinha-commit",
               },
             ],
           },

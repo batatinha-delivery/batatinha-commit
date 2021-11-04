@@ -1,0 +1,41 @@
+name: Publish
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: Configure CI Git User
+        run: |
+          git config --global user.name '@ezidio'
+          git config --global user.email 'ezidio@users.noreply.github.com'
+        env:
+          PAT_GITHUB: ${{ secrets.PAT_GITHUB }}
+
+      - name: Install Packages
+        run: yarn install
+
+      - name: Authenticate with Registry
+        run: |
+          yarn logout
+          echo "@batatinha-delivery:registry=http://registry.npmjs.org/" > .npmrc
+          echo "registry=http://registry.npmjs.org/" >> .npmrc
+          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
+          npm whoami
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_DEPLOY_TOKEN }}
+
+      - name: Publish package
+        run: |
+          lerna publish --yes --message "chore: Release new version"
+        env:
+          GH_TOKEN: ${{ secrets.PAT_GITHUB }}
+          GITHUB_TOKEN: ${{ secrets.PAT_GITHUB }}
+          NPM_TOKEN: ${{ secrets.NPM_DEPLOY_TOKEN }}
