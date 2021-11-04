@@ -1,4 +1,4 @@
-# @ifood/cz-conventional-changelog
+# @batatinha-delivery/cz-conventional-changelog
 
 This package provides an iFood adaptation to `cz-conventional-changelog` with the following extra features:
 
@@ -7,10 +7,10 @@ This package provides an iFood adaptation to `cz-conventional-changelog` with th
 
 ## Getting started
 
-1. Install `commitizen` and `@ifood/cz-conventional-changelog`:
+1. Install `commitizen` and `@batatinha-delivery/cz-conventional-changelog`:
 
    ```bash
-   npm install commitizen @ifood/cz-conventional-changelog -D
+   npm install commitizen @batatinha-delivery/cz-conventional-changelog -D
    ```
 
 2. Add configuration to .czrc or create a config.commitizen in the package.json
@@ -19,7 +19,7 @@ This package provides an iFood adaptation to `cz-conventional-changelog` with th
 
   ```json
   {
-    "path": "@ifood/cz-conventional-changelog"
+    "path": "@batatinha-delivery/cz-conventional-changelog"
   }
   ```
 
@@ -29,7 +29,7 @@ This package provides an iFood adaptation to `cz-conventional-changelog` with th
   {
     "config": {
       "commitizen": {
-        "path": "@ifood/cz-conventional-changelog"
+        "path": "@batatinha-delivery/cz-conventional-changelog"
       }
     }
   }
