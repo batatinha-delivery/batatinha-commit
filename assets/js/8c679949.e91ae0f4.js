@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[940],{8769:function(a){a.exports=JSON.parse('{"allTagsPath":"/batatinha-commit/blog/tags","slug":"/batatinha-commit/blog/tags/hello","name":"hello","count":2,"permalink":"/batatinha-commit/blog/tags/hello"}')}}]);
