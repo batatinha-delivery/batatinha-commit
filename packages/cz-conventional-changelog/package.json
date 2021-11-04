@@ -1,10 +1,14 @@
 {
-  "name": "@ifood/cz-conventional-changelog",
+  "name": "@batatinha-delivery/cz-conventional-changelog",
   "version": "2.0.0",
   "description": "Commitizen adapter following the conventional-changelog format, adapted to iFood.",
   "author": "",
   "license": "ISC",
   "main": "index.js",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "commitizen": "^4.1.2",
     "conventional-commit-types": "^3.0.0",

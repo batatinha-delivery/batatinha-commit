@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["@ifood/commitlint-config"],
+  extends: ["@batatinha-delivery/commitlint-config"],
 };

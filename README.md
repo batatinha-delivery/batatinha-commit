@@ -8,9 +8,9 @@ To know more about how to use the style guide, read [this article][guide-article
 
 ## Packages
 
-- [`@ifood/commitlint-config`](packages/commitlint-config)
-- [`@ifood/conventional-changelog-unreleased`](packages/conventional-changelog-unreleased)
-- [`@ifood/cz-conventional-changelog`](packages/cz-conventional-changelog)
+- [`@batatinha-delivery/commitlint-config`](packages/commitlint-config)
+- [`@batatinha-delivery/conventional-changelog-unreleased`](packages/conventional-changelog-unreleased)
+- [`@batatinha-delivery/cz-conventional-changelog`](packages/cz-conventional-changelog)
 
 ## Contributing
 
