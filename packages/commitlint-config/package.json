@@ -1,6 +1,6 @@
 {
   "name": "@ifood/commitlint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "iFood's commitlint config",
   "author": "Fernando Maia <fernando.maia@ifood.com.br>",
   "license": "ISC",
