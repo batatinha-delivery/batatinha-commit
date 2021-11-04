@@ -1,4 +1,4 @@
-# @ifood/commitlint-config
+# @batatinha-delivery/commitlint-config
 
 This package provides iFood's [commitlint](https://github.com/conventional-changelog/commitlint) as an extensible shared config.
 
@@ -6,17 +6,17 @@ It extends [angular preset](https://www.npmjs.com/package/@commitlint/config-ang
 
 ## Installation
 
-Install `@ifood/commitlint-config`:
+Install `@batatinha-delivery/commitlint-config`:
 
 ```bash
-$ npm i @ifood/commitlint-config -D
+$ npm i @batatinha-delivery/commitlint-config -D
 ```
 
 Add a commitlint.config.js file using the preset:
 
 ```js
 module.exports = {
-  extends: ["@ifood"],
+  extends: ["@batatinha-delivery"],
 };
 ```
 

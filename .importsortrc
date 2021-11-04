@@ -1,10 +1,10 @@
 {
   ".js, .jsx, .es6, .es": {
     "parser": "babylon",
-    "style": "@ifood/import-sort-style"
+    "style": "@batatinha-delivery/import-sort-style"
   },
   ".ts, .tsx": {
     "parser": "typescript",
-    "style": "@ifood/import-sort-style"
+    "style": "@batatinha-delivery/import-sort-style"
   }
 }
