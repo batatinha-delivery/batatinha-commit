@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.0.1"></a>
+## 2.0.1 (2021-11-04)
+
+
+### Chores
+
+* Alterado escopo dos projetos ([5243c6e](https://github.com/batatinha-delivery/batatinha-commit/commit/5243c6e))
+
+
+
+
+
 <a name="2.0.0"></a>
 # 2.0.0 (2021-07-07)
 
