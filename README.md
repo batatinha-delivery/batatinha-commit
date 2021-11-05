@@ -12,6 +12,8 @@ To know more about how to use the style guide, read [this article][guide-article
 - [`@batatinha-delivery/conventional-changelog-unreleased`](packages/conventional-changelog-unreleased)
 - [`@batatinha-delivery/cz-conventional-changelog`](packages/cz-conventional-changelog)
 
+Realizando alteração apenas para rodar a pipeline do PR
+
 ## Contributing
 
 We are thankful for any contributions from the community.
