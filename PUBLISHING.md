@@ -1,5 +1,11 @@
 # Pipelines
 
+## Linter
+
+Para rodar os linters no projeto foi configurado a action: https://github.com/wearerequired/lint-action
+
+Ela tem suporte a várias linguagens, e faz com que os problemas encontrados apareçam junto com o codigo no Pull Request, tornando fácil a visualização.
+
 ## Documentation
 
 O projeto utiliza a pipeline padrão do docusaurus para fazer o deploy no githubPages.
@@ -21,3 +27,14 @@ As secrets estarão configuradas na organização, não necessitando configurar 
 
 - **NPM_DEPLOY_TOKEN**: Token de deploy do NPM com permissão "Publish": https://docs.npmjs.com/creating-and-viewing-access-tokens
 - **PAT_GITHUB**: Criar um Private Access Token para o usuário: https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
+# Configuração do GitHub
+
+Regras habilitadas:
+
+- Require a pull request before merging
+  - Require approvals
+- Require status checks to pass before merging
+  - Status checks that are required:
+    - static_analysis/build
+- Require conversation resolution before merging
