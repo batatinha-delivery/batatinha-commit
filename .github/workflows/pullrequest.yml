@@ -10,4 +10,4 @@ on:
 
 jobs:
   static_analysis:
-    uses: batatinha-delivery/workflows/.github/workflows/npm_lint.yml@master
+    uses: batatinha-delivery/workflows/.github/workflows/npm_check.yml@master

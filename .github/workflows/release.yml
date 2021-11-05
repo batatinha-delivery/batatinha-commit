@@ -8,10 +8,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  static_analysis:
-    uses: batatinha-delivery/workflows/.github/workflows/npm_lint.yml@master
+  check:
+    uses: batatinha-delivery/workflows/.github/workflows/npm_check.yml@master
   publish:
-    needs: static_analysis
+    needs: check
     uses: batatinha-delivery/workflows/.github/workflows/npm_publish.yml@master
     secrets:
       PAT_GITHUB: ${{ secrets.PAT_GITHUB }}
