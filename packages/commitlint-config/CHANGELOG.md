@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.2.0"></a>
+# 2.2.0 (2021-11-05)
+
+
+### Chores
+
+* Adicionando dependencia dos passos da pipeline ([c28d00b](https://github.com/batatinha-delivery/batatinha-commit/commit/c28d00b))
+
+
+
+
+
 <a name="2.1.0"></a>
 # 2.1.0 (2021-11-05)
 
