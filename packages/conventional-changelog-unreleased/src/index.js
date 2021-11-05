@@ -9,6 +9,7 @@ const toClipboard = () =>
   new Stream.Writable({
     objectMode: true,
     write: (data, _, done) => {
+      const opa = "test";
       const changelog = data.toString();
       clipboardy.writeSync(changelog);
       console.log(changelog);
