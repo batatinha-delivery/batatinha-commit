@@ -11,11 +11,13 @@ jobs:
   static_analysis:
     uses: batatinha-delivery/workflows/.github/workflows/npm_lint.yml@master
   publish:
+    needs: static_analysis
     uses: batatinha-delivery/workflows/.github/workflows/npm_publish.yml@master
     secrets:
       PAT_GITHUB: ${{ secrets.PAT_GITHUB }}
       NPM_DEPLOY_TOKEN: ${{ secrets.NPM_DEPLOY_TOKEN }}
   documentation:
+    needs: publish
     uses: batatinha-delivery/workflows/.github/workflows/documentation_publish.yml@master
     secrets:
       GH_PAGES_DEPLOY: ${{ secrets.GH_PAGES_DEPLOY }}
