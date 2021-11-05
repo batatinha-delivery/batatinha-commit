@@ -1,0 +1,13 @@
+name: pull_requests
+
+on:
+  pull_request:
+    branches:
+      - main
+
+  # Allow manually triggering the workflow.
+  workflow_dispatch:
+
+jobs:
+  static_analysis:
+    uses: batatinha-delivery/workflows/.github/workflows/npm_lint.yml@master

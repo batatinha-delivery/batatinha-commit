@@ -8,6 +8,8 @@ on:
   workflow_dispatch:
 
 jobs:
+  static_analysis:
+    uses: batatinha-delivery/workflows/.github/workflows/npm_lint.yml@master
   publish:
     uses: batatinha-delivery/workflows/.github/workflows/npm_publish.yml@master
     secrets:
