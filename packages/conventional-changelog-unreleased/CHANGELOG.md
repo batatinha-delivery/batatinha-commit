@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.9.0"></a>
+# 2.9.0 (2021-11-08)
+
+
+### Chores
+
+* **release:** Release new version ([66327d3](https://github.com/batatinha-delivery/batatinha-commit/commit/66327d3))
+
+
+
+
+
 <a name="2.8.0"></a>
 # [2.8.0](https://github.com/batatinha-delivery/batatinha-commit/compare/@batatinha-delivery/conventional-changelog-unreleased@2.6.0...@batatinha-delivery/conventional-changelog-unreleased@2.8.0) (2021-11-08)
 
