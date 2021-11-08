@@ -1,6 +1,6 @@
 # Pipelines
 
-## Linter
+## Checker
 
 Para rodar os linters no projeto foi configurado a action: https://github.com/wearerequired/lint-action
 
