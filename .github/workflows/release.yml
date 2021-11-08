@@ -17,6 +17,8 @@ jobs:
       PAT_GITHUB: ${{ secrets.PAT_GITHUB }}
       NPM_DEPLOY_TOKEN: ${{ secrets.NPM_DEPLOY_TOKEN }}
       GH_PAGES_DEPLOY: ${{ secrets.GH_PAGES_DEPLOY }}
+    with:
+      GITHUB_REPOSITORY: batatinha-delivery/batatinha-commit
   documentation:
     needs: publish
     uses: batatinha-delivery/workflows/.github/workflows/documentation_publish.yml@master

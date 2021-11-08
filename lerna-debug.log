@@ -1,0 +1,146 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   yes: true,
+0 silly argv   y: true,
+0 silly argv   'conventional-commits': true,
+0 silly argv   conventionalCommits: true,
+0 silly argv   'create-release': 'github',
+0 silly argv   createRelease: 'github',
+0 silly argv   message: 'chore(release): Release new version',
+0 silly argv   m: 'chore(release): Release new version',
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': '/Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/node_modules/.bin/lerna',
+0 silly argv   bump: 'minor'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit
+3 info versioning independent
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly currentBranch
+7 verbose currentBranch main
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 0
+11 silly hasTags
+12 verbose hasTags true
+13 silly git-describe.sync "@batatinha-delivery/commitlint-config@2.6.0-1-g61df6c2" => {"lastTagName":"@batatinha-delivery/commitlint-config@2.6.0","lastVersion":"2.6.0","refCount":"1","sha":"61df6c2","isDirty":false}
+14 info Looking for changed packages since @batatinha-delivery/commitlint-config@2.6.0
+15 silly checking diff packages/commitlint-config
+16 silly found diff in packages/commitlint-config/package.json
+17 verbose filtered diff [ 'packages/commitlint-config/package.json' ]
+18 silly checking diff packages/conventional-changelog-unreleased
+19 silly found diff in packages/conventional-changelog-unreleased/package.json
+20 verbose filtered diff [ 'packages/conventional-changelog-unreleased/package.json' ]
+21 silly checking diff packages/cz-conventional-changelog
+22 silly found diff in packages/cz-conventional-changelog/package.json
+23 verbose filtered diff [ 'packages/cz-conventional-changelog/package.json' ]
+24 verbose updated @batatinha-delivery/commitlint-config
+25 verbose updated @batatinha-delivery/conventional-changelog-unreleased
+26 verbose updated @batatinha-delivery/cz-conventional-changelog
+27 verbose git-describe undefined => "@batatinha-delivery/commitlint-config@2.6.0-1-g61df6c2"
+28 silly git-describe parsed => {"lastTagName":"@batatinha-delivery/commitlint-config@2.6.0","lastVersion":"2.6.0","refCount":"1","sha":"61df6c2","isDirty":false}
+29 info auto-confirmed
+30 info execute Creating releases...
+31 silly lifecycle No script for "preversion" in "ifood-commit", continuing
+32 silly lifecycle No script for "preversion" in "@batatinha-delivery/commitlint-config", continuing
+33 silly lifecycle No script for "preversion" in "@batatinha-delivery/conventional-changelog-unreleased", continuing
+34 silly lifecycle No script for "preversion" in "@batatinha-delivery/cz-conventional-changelog", continuing
+35 silly lifecycle No script for "version" in "@batatinha-delivery/commitlint-config", continuing
+36 silly independent for @batatinha-delivery/commitlint-config at /Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/packages/commitlint-config
+37 verbose getChangelogConfig using preset "angular-all"
+38 silly npa Result {
+38 silly npa   type: 'tag',
+38 silly npa   registry: true,
+38 silly npa   where: undefined,
+38 silly npa   raw: 'angular-all',
+38 silly npa   name: 'angular-all',
+38 silly npa   escapedName: 'angular-all',
+38 silly npa   scope: undefined,
+38 silly npa   rawSpec: '',
+38 silly npa   saveSpec: null,
+38 silly npa   fetchSpec: 'latest',
+38 silly npa   gitRange: undefined,
+38 silly npa   gitCommittish: undefined,
+38 silly npa   hosted: undefined
+38 silly npa }
+39 verbose getChangelogConfig Attempting to resolve preset "angular-all"
+40 verbose getChangelogConfig Cannot find module 'angular-all'
+40 verbose getChangelogConfig Require stack:
+40 verbose getChangelogConfig - /Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/node_modules/@lerna/conventional-commits/lib/get-changelog-config.js
+40 verbose getChangelogConfig - /Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/node_modules/@lerna/conventional-commits/lib/recommend-version.js
+40 verbose getChangelogConfig - /Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/node_modules/@lerna/conventional-commits/index.js
+40 verbose getChangelogConfig - /Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/node_modules/@lerna/version/index.js
+40 verbose getChangelogConfig - /Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/node_modules/@lerna/version/command.js
+40 verbose getChangelogConfig - /Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/node_modules/@lerna/publish/command.js
+40 verbose getChangelogConfig - /Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/node_modules/lerna/index.js
+40 verbose getChangelogConfig - /Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/node_modules/lerna/cli.js
+41 info getChangelogConfig Auto-prefixing conventional-changelog preset "angular-all"
+42 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular-all"
+43 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular-all"
+44 silly lifecycle No script for "version" in "@batatinha-delivery/conventional-changelog-unreleased", continuing
+45 silly independent for @batatinha-delivery/conventional-changelog-unreleased at /Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/packages/conventional-changelog-unreleased
+46 silly lifecycle No script for "version" in "@batatinha-delivery/cz-conventional-changelog", continuing
+47 silly independent for @batatinha-delivery/cz-conventional-changelog at /Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/packages/cz-conventional-changelog
+48 silly independent writing new entry: "<a name=\"2.8.0\"></a>\n# [2.8.0](https://github.com/batatinha-delivery/batatinha-commit/compare/@batatinha-delivery/commitlint-config@2.6.0...@batatinha-delivery/commitlint-config@2.8.0) (2021-11-08)\n\n\n### Chores\n\n* Bumping version ([61df6c2](https://github.com/batatinha-delivery/batatinha-commit/commit/61df6c2))\n\n\n\n"
+49 silly independent writing new entry: "<a name=\"2.8.0\"></a>\n# [2.8.0](https://github.com/batatinha-delivery/batatinha-commit/compare/@batatinha-delivery/cz-conventional-changelog@2.6.0...@batatinha-delivery/cz-conventional-changelog@2.8.0) (2021-11-08)\n\n\n### Chores\n\n* Bumping version ([61df6c2](https://github.com/batatinha-delivery/batatinha-commit/commit/61df6c2))\n\n\n\n"
+50 silly independent writing new entry: "<a name=\"2.8.0\"></a>\n# [2.8.0](https://github.com/batatinha-delivery/batatinha-commit/compare/@batatinha-delivery/conventional-changelog-unreleased@2.6.0...@batatinha-delivery/conventional-changelog-unreleased@2.8.0) (2021-11-08)\n\n\n### Chores\n\n* Bumping version ([61df6c2](https://github.com/batatinha-delivery/batatinha-commit/commit/61df6c2))\n\n\n\n"
+51 verbose independent wrote /Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/packages/commitlint-config/CHANGELOG.md
+52 verbose independent wrote /Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/packages/conventional-changelog-unreleased/CHANGELOG.md
+53 verbose independent wrote /Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/packages/cz-conventional-changelog/CHANGELOG.md
+54 silly lifecycle No script for "version" in "ifood-commit", continuing
+55 silly gitAdd [
+55 silly gitAdd   'packages/commitlint-config/package.json',
+55 silly gitAdd   'packages/conventional-changelog-unreleased/package.json',
+55 silly gitAdd   'packages/cz-conventional-changelog/package.json',
+55 silly gitAdd   'packages/commitlint-config/CHANGELOG.md',
+55 silly gitAdd   'packages/conventional-changelog-unreleased/CHANGELOG.md',
+55 silly gitAdd   'packages/cz-conventional-changelog/CHANGELOG.md'
+55 silly gitAdd ]
+56 silly gitCommit chore(release): Release new version
+56 silly gitCommit
+56 silly gitCommit  - @batatinha-delivery/commitlint-config@2.8.0
+56 silly gitCommit  - @batatinha-delivery/conventional-changelog-unreleased@2.8.0
+56 silly gitCommit  - @batatinha-delivery/cz-conventional-changelog@2.8.0
+57 verbose git [
+57 verbose git   'commit',
+57 verbose git   '-F',
+57 verbose git   '/private/var/folders/sk/vwrm3mbs6h38d0yjvxydspl9glfdmt/T/c978948e-7f77-4a54-9e8a-c2d9496720de/lerna-commit.txt'
+57 verbose git ]
+58 silly gitTag @batatinha-delivery/commitlint-config@2.8.0
+59 verbose git [
+59 verbose git   'tag',
+59 verbose git   '@batatinha-delivery/commitlint-config@2.8.0',
+59 verbose git   '-m',
+59 verbose git   '@batatinha-delivery/commitlint-config@2.8.0'
+59 verbose git ]
+60 silly gitTag @batatinha-delivery/conventional-changelog-unreleased@2.8.0
+61 verbose git [
+61 verbose git   'tag',
+61 verbose git   '@batatinha-delivery/conventional-changelog-unreleased@2.8.0',
+61 verbose git   '-m',
+61 verbose git   '@batatinha-delivery/conventional-changelog-unreleased@2.8.0'
+61 verbose git ]
+62 silly gitTag @batatinha-delivery/cz-conventional-changelog@2.8.0
+63 verbose git [
+63 verbose git   'tag',
+63 verbose git   '@batatinha-delivery/cz-conventional-changelog@2.8.0',
+63 verbose git   '-m',
+63 verbose git   '@batatinha-delivery/cz-conventional-changelog@2.8.0'
+63 verbose git ]
+64 silly lifecycle No script for "postversion" in "@batatinha-delivery/commitlint-config", continuing
+65 silly lifecycle No script for "postversion" in "@batatinha-delivery/conventional-changelog-unreleased", continuing
+66 silly lifecycle No script for "postversion" in "@batatinha-delivery/cz-conventional-changelog", continuing
+67 silly lifecycle No script for "postversion" in "ifood-commit", continuing
+68 info git Pushing tags...
+69 silly gitPush origin main
+70 silly parseGitRepo
+71 verbose git [ 'config', '--get', 'remote.origin.url' ]
+72 silly createGitHubClient
+73 error Error: A GH_TOKEN environment variable is required.
+73 error     at createGitHubClient (/Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/node_modules/@lerna/github-client/lib/github-client.js:17:11)
+73 error     at createClient (/Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/node_modules/@lerna/version/lib/create-release.js:16:14)
+73 error     at createRelease (/Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/node_modules/@lerna/version/lib/create-release.js:25:18)
+73 error     at /Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/node_modules/@lerna/version/index.js:282:9
+73 error     at /Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/node_modules/p-waterfall/index.js:4:73
+73 error     at /Users/everton.tavares/dev/ifood/batatinha-delivery/batatinha-commit/node_modules/p-reduce/index.js:16:10

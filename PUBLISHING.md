@@ -2,6 +2,8 @@
 
 ## Checker
 
+Parte da pipeline que roda as checagens de codigo.
+
 Para rodar os linters no projeto foi configurado a action: https://github.com/wearerequired/lint-action
 
 Ela tem suporte a várias linguagens, e faz com que os problemas encontrados apareçam junto com o codigo no Pull Request, tornando fácil a visualização.
