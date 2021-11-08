@@ -1,6 +1,6 @@
 {
   "name": "@batatinha-delivery/cz-conventional-changelog",
-  "version": "2.2.0",
+  "version": "2.5.0",
   "description": "Commitizen adapter following the conventional-changelog format, adapted to iFood.",
   "author": "",
   "license": "ISC",
