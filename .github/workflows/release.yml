@@ -1,13 +1,19 @@
 name: release
 
 on:
-  push:
+  # push:
+  #   branches:
+  #     - main
+  pull_request:
     branches:
       - main
+    types: [closed]
+
   # Allow manually triggering the workflow.
   workflow_dispatch:
 
 jobs:
+  if: github.event.pull_request.merged == true
   check:
     uses: batatinha-delivery/workflows/.github/workflows/npm_check.yml@master
   publish:
