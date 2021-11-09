@@ -1,6 +1,6 @@
 {
   "name": "@batatinha-delivery/commitlint-config",
-  "version": "2.9.0",
+  "version": "2.10.0",
   "description": "iFood's commitlint config",
   "author": "Fernando Maia <fernando.maia@batatinha-delivery.com.br>",
   "license": "ISC",
