@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.9.0"></a>
+# 2.9.0 (2021-11-09)
+
+
+### Chores
+
+* Teste ([12f2db5](https://github.com/batatinha-delivery/batatinha-commit/commit/12f2db5))
+
+
+
+
+
 <a name="2.8.0"></a>
 # [2.8.0](https://github.com/batatinha-delivery/batatinha-commit/compare/@batatinha-delivery/commitlint-config@2.6.0...@batatinha-delivery/commitlint-config@2.8.0) (2021-11-08)
 
