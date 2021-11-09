@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.9.0"></a>
+# 2.9.0 (2021-11-09)
+
+**Note:** Version bump only for package @batatinha-delivery/cz-conventional-changelog
+
+
+
+
+
 <a name="2.8.0"></a>
 # [2.8.0](https://github.com/batatinha-delivery/batatinha-commit/compare/@batatinha-delivery/cz-conventional-changelog@2.6.0...@batatinha-delivery/cz-conventional-changelog@2.8.0) (2021-11-08)
 
