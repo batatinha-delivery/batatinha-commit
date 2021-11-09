@@ -2,7 +2,7 @@
 
 ## Checker
 
-Parte da pipeline que roda as checagens de codigo.
+Parte da pipeline que roda as checagens de codigo. teste
 
 Para rodar os linters no projeto foi configurado a action: https://github.com/wearerequired/lint-action
 
