@@ -119,7 +119,18 @@ The related issue must be referenced in the footer (optional for non-permanent b
 
 ## <a name="cla"></a> Signing the CLA
 
-> TO BE DEFINED.
+All contributions to iFood projects must be accompanied by a [Contributor License Agreement](CLA.md). To sign, the user must open a Pull Request in
+https://github.com/batatinha-delivery/clabot-config project, including the GitHub user or email in `.clabot` file.
+
+```json
+{
+  "contributors": ["YourUsername"]
+}
+```
+
+The Open Source Programs Office provides a tool that will automate checking for CLAs on all new pull requests. If user already signed the CLA, the tool will
+check the PR, enabling the merge. If the sign is missing, the user should sign and add a new PR comment containing: `@cla-bot check`, that will make the tool
+re-check the signature.
 
 ## <a name="faq"></a> FAQ
 
