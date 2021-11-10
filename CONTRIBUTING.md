@@ -128,8 +128,8 @@ https://github.com/batatinha-delivery/clabot-config project, including the GitHu
 }
 ```
 
-The Open Source Programs Office provides a tool that will automate checking for CLAs on all new pull requests. If user already signed the CLA, the tool will
-check the PR, enabling the merge. If the sign is missing, the user should sign and add a new PR comment containing: `@cla-bot check`, that will make the tool
+The Open Source Programs Office provides a tool that will automate checking for CLAs on all new pull requests. If the user already signed the CLA, the tool will
+check the PR, enabling the merge. If the sign is missing, the user should sign and add a new PR comment containing `@cla-bot check` text, which will make the tool
 re-check the signature.
 
 ## <a name="faq"></a> FAQ

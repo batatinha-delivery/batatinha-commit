@@ -1,81 +1,102 @@
 # The Contributors License Agreement
 
-## Version 2.0
+Thank you for your interest in iFood com Agência de Restaurantes
+Online S.A. (the "iFood"). In order to clarify the intellectual property license
+granted with Contributions from any person or entity, the iFood
+must have a Contributor License Agreement ("CLA") on file that has
+been signed by each Contributor, indicating agreement to the license
+terms below. This license is for your protection as a Contributor as
+well as the protection of the iFood and its users; it does not
+change your rights to use your own Contributions for any other purpose.
 
-### Preface
+You accept and agree to the following terms and conditions for Your
+present and future Contributions submitted to the iFood. In
+return, the iFood shall not use Your Contributions in a way that
+is contrary to the public benefit or inconsistent with its nonprofit
+status and bylaws in effect at the time of the Contribution. Except
+for the license granted herein to the iFood and recipients of
+software distributed by the iFood, You reserve all right, title,
+and interest in and to Your Contributions.
 
-This Agreement is between You, the Users, the Contributors, and A Medium Corporation. The intent of the Agreement is to clarify your responsibilities as a Contributor.
+1. Definitions
+   "You" (or "Your") shall mean the copyright owner or legal entity
+   authorized by the copyright owner that is making this Agreement
+   with the iFood. For legal entities, the entity making a
+   Contribution and all other entities that control, are controlled
+   by, or are under common control with that entity are considered to
+   be a single Contributor. For the purposes of this definition,
+   "control" means (i) the power, direct or indirect, to cause the
+   direction or management of such entity, whether by contract or
+   otherwise, or (ii) ownership of fifty percent (50%) or more of the
+   outstanding shares, or (iii) beneficial ownership of such entity.
 
-The Agreement is meant to protect You, the Users, the Contributors,
-and A Medium Corporation from the malicious misdeeds of others.
-The Agreement is _not_ intended to restrict how You use Your own
-Contributions.
+   "Contribution" shall mean any original work of authorship,
+   including any modifications or additions to an existing work, that
+   is intentionally submitted by You to the iFood for inclusion
+   in, or documentation of, any of the products owned or managed by
+   the iFood (the "Work"). For the purposes of this definition,
+   "submitted" means any form of electronic, verbal, or written
+   communication sent to the iFood or its representatives,
+   including but not limited to communication on electronic mailing
+   lists, source code control systems, and issue tracking systems that
+   are managed by, or on behalf of, the iFood for the purpose of
+   discussing and improving the Work, but excluding communication that
+   is conspicuously marked or otherwise designated in writing by You
+   as "Not a Contribution."
 
-The Agreement is written in plain English to be easily understood by
-You and all those affected by it. The terms defined below and used
-throughout this document are capitalized in order to reduce ambiguity,
-but they should be understood to have their usual colloquial meaning
-and the singular shall include the plural.
-
-### Definitions
-
-1. "Agreement" &mdash; This document.
-
-2. "You" / "Your" &mdash; The individual signing this Agreement.
-
-3. "A Medium Corporation" &mdash; The company which manages the
-   Projects. The company's website is at <http://medium.com/>.
-
-4. "Project" &mdash; Open source projects being managed by A Medium Corporation. The Projects may all be found at
-   <https://github.com/Obvious> with an overview at
-   <https://github.com/Obvious/open-source>.
-
-5. "Contribution" &mdash; Code, content, and ideas
-   that are meant to be integrated into Projects. Issues (bug report)
-   and pull requests (suggestions to integrate content) filed on a
-   Project are implicitly Contributions, unless they clearly state
-   up-front, "This is not a contribution." Contributions may take
-   other forms as well, including (but not limited to) email or other
-   more general communication intended to be received by one or more
-   Contributors.
-
-6. "Contributor" &mdash; Those people and
-   corporations that provide Contributions.
-
-7. "User" &mdash; Those people and companies which make use of the
-   Projects. Making use of a Project includes (but is not limited to)
-   compiling and/or running its content, taking some action which
-   causes its content to be used, copying its content, distributing
-   its content, modifying its content, and even taking its content
-   and/or ideas for a less direct purpose.
-
-### Licensing Agreement
-
-When You provide a Contribution to a Project:
-
-- You assert that the Contribution was authored by You.
-
-- You license that Contribution under the terms of the
-  license of that Project. More specifically, You grant an irrevocable
-  license for Your Contribution to the Users, the Contributors, and
-  iFood com Agência de Restaurantes Online S.A.
-
-- You assert that You have the authority and are able to license Your
-  Contribution under the license of that Project.
-
-- If Your employer has rights to intellectual property that You create
-  which may include Your Contribution, then You assert that Your
-  employer has granted You explicit permission to license the Contribution
-  on behalf of Your employer.
-
-Furthermore:
-
-- You assert that You have the authority and are able to enter into this
-  Agreement.
-
-- If You become aware of a problem with any of Your Contributions or
-  with the fact that You have signed this Agreement, then You agree to
-  inform iFood com Agência de Restaurantes Online S.A. about the problem, without any undue
-  delay.
-
-To the extent possible under law, iFood has dedicated all copyright and related and neighboring rights to the text of this license to the public domain worldwide. This software is distributed without any warranty. See <http://creativecommons.org/publicdomain/zero/1.0/>.
+2. Grant of Copyright License. Subject to the terms and conditions of
+   this Agreement, You hereby grant to the iFood and to
+   recipients of software distributed by the iFood a perpetual,
+   worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+   copyright license to reproduce, prepare derivative works of,
+   publicly display, publicly perform, sublicense, and distribute Your
+   Contributions and such derivative works.
+3. Grant of Patent License. Subject to the terms and conditions of
+   this Agreement, You hereby grant to the iFood and to
+   recipients of software distributed by the iFood a perpetual,
+   worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+   (except as stated in this section) patent license to make, have
+   made, use, offer to sell, sell, import, and otherwise transfer the
+   Work, where such license applies only to those patent claims
+   licensable by You that are necessarily infringed by Your
+   Contribution(s) alone or by combination of Your Contribution(s)
+   with the Work to which such Contribution(s) was submitted. If any
+   entity institutes patent litigation against You or any other entity
+   (including a cross-claim or counterclaim in a lawsuit) alleging
+   that your Contribution, or the Work to which you have contributed,
+   constitutes direct or contributory patent infringement, then any
+   patent licenses granted to that entity under this Agreement for
+   that Contribution or Work shall terminate as of the date such
+   litigation is filed.
+4. You represent that you are legally entitled to grant the above
+   license. If your employer(s) has rights to intellectual property
+   that you create that includes your Contributions, you represent
+   that you have received permission to make Contributions on behalf
+   of that employer, that your employer has waived such rights for
+   your Contributions to the iFood, or that your employer has
+   executed a separate Corporate CLA with the iFood.
+5. You represent that each of Your Contributions is Your original
+   creation (see section 7 for submissions on behalf of others). You
+   represent that Your Contribution submissions include complete
+   details of any third-party license or other restriction (including,
+   but not limited to, related patents and trademarks) of which you
+   are personally aware and which are associated with any part of Your
+   Contributions.
+6. You are not expected to provide support for Your Contributions,
+   except to the extent You desire to provide support. You may provide
+   support for free, for a fee, or not at all. Unless required by
+   applicable law or agreed to in writing, You provide Your
+   Contributions on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS
+   OF ANY KIND, either express or implied, including, without
+   limitation, any warranties or conditions of TITLE, NON-
+   INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE.
+7. Should You wish to submit work that is not Your original creation,
+   You may submit it to the iFood separately from any
+   Contribution, identifying the complete details of its source and of
+   any license or other restriction (including, but not limited to,
+   related patents, trademarks, and license agreements) of which you
+   are personally aware, and conspicuously marking the work as
+   "Submitted on behalf of a third-party: [named here]".
+8. You agree to notify the iFood of any facts or circumstances of
+   which you become aware that would make these representations
+   inaccurate in any respect.
