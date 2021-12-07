@@ -1,0 +1,32 @@
+name: security
+
+on:
+  # Allow manually triggering the workflow.
+  workflow_dispatch:
+
+jobs:
+  redhat:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: Install Packages
+        run: yarn install
+      - name: Install CRDA
+        uses: redhat-actions/openshift-tools-installer@v1
+        with:
+          source: github
+          crda: latest
+      - name: CRDA Scan
+        id: crda_scan
+        uses: redhat-actions/crda@v1
+        with:
+          crda_key: ${{ secrets.CRDA_KEY }}
+      - name: Print Report Link
+        run: echo ${{ steps.crda_scan.outputs.report_link }}
+  sec:
+    uses: batatinha-delivery/workflows/.github/workflows/npm_security.yml@master

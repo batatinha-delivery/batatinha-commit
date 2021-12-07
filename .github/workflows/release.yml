@@ -13,8 +13,11 @@ jobs:
   check:
     if: github.event.pull_request.merged == true
     uses: batatinha-delivery/workflows/.github/workflows/npm_check.yml@master
-  publish:
+  sec:
     needs: check
+    uses: batatinha-delivery/workflows/.github/workflows/npm_security.yml@master
+  publish:
+    needs: sec
     uses: batatinha-delivery/workflows/.github/workflows/npm_publish.yml@master
     secrets:
       PAT_GITHUB: ${{ secrets.PAT_GITHUB }}
