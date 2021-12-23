@@ -11,3 +11,7 @@ on:
 jobs:
   static_analysis:
     uses: batatinha-delivery/workflows/.github/workflows/npm_check.yml@master
+  security:
+    uses: batatinha-delivery/workflows/.github/workflows/npm_security.yml@master
+    secrets:
+      SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
