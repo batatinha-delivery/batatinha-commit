@@ -1,5 +1,7 @@
 const conventionalCommitTypes = require("conventional-commit-types");
 
+const opa = "essa variavel nao sera utilizada";
+
 module.exports = {
   extends: ["@commitlint/config-angular"],
   rules: {
