@@ -11,7 +11,6 @@ on:
 
 jobs:
   publish:
-    needs: sec
     uses: batatinha-delivery/workflows/.github/workflows/npm_publish.yml@master
     secrets:
       NPM_DEPLOY_TOKEN: ${{ secrets.NPM_DEPLOY_TOKEN }}
