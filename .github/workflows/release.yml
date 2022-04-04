@@ -10,21 +10,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  check:
-    if: github.event.pull_request.merged == true
-    uses: batatinha-delivery/workflows/.github/workflows/npm_check.yml@master
-  sec:
-    needs: check
-    uses: batatinha-delivery/workflows/.github/workflows/npm_security.yml@master
   publish:
     needs: sec
     uses: batatinha-delivery/workflows/.github/workflows/npm_publish.yml@master
     secrets:
-      PAT_GITHUB: ${{ secrets.PAT_GITHUB }}
       NPM_DEPLOY_TOKEN: ${{ secrets.NPM_DEPLOY_TOKEN }}
-      GH_PAGES_DEPLOY: ${{ secrets.GH_PAGES_DEPLOY }}
-  documentation:
-    needs: publish
-    uses: batatinha-delivery/workflows/.github/workflows/documentation_publish.yml@master
-    secrets:
-      GH_PAGES_DEPLOY: ${{ secrets.GH_PAGES_DEPLOY }}
