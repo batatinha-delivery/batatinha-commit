@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.16.0"></a>
+# [2.16.0](https://github.com/batatinha-delivery/batatinha-commit/compare/@batatinha-delivery/commitlint-config@2.1.0...@batatinha-delivery/commitlint-config@2.16.0) (2022-04-05)
+
+
+### Chores
+
+* fixing version ([ebcbbf5](https://github.com/batatinha-delivery/batatinha-commit/commit/ebcbbf5))
+* new version ([e7bce03](https://github.com/batatinha-delivery/batatinha-commit/commit/e7bce03))
+* **release:** Release new version ([24c167a](https://github.com/batatinha-delivery/batatinha-commit/commit/24c167a))
+* **release:** Release new version ([e3f4c74](https://github.com/batatinha-delivery/batatinha-commit/commit/e3f4c74))
+* **release:** Release new version ([cbe467c](https://github.com/batatinha-delivery/batatinha-commit/commit/cbe467c))
+* **release:** Release new version ([4b89f2a](https://github.com/batatinha-delivery/batatinha-commit/commit/4b89f2a))
+* **release:** Release new version ([66327d3](https://github.com/batatinha-delivery/batatinha-commit/commit/66327d3))
+* Bumping version ([61df6c2](https://github.com/batatinha-delivery/batatinha-commit/commit/61df6c2))
+* Changing project version ([9f06743](https://github.com/batatinha-delivery/batatinha-commit/commit/9f06743))
+* Release new version ([91f6019](https://github.com/batatinha-delivery/batatinha-commit/commit/91f6019))
+* Release new version ([9b13aeb](https://github.com/batatinha-delivery/batatinha-commit/commit/9b13aeb))
+
+
+
+
+
 <a name="2.12.0"></a>
 # 2.12.0 (2021-12-06)
 
