@@ -81,51 +81,53 @@ module.exports = (options) => {
           message: "Describe the breaking changes:\n",
           when: (answers) => answers.isBreaking,
         },
-      ]).then((answers) => {
-        const maxLineWidth = 100;
-        const wrapOptions = {
-          trim: true,
-          newline: "\n",
-          indent: "",
-          width: maxLineWidth,
-        };
+      ])
+        .then((answers) => {
+          const maxLineWidth = 100;
+          const wrapOptions = {
+            trim: true,
+            newline: "\n",
+            indent: "",
+            width: maxLineWidth,
+          };
 
-        // parentheses are only needed when a scope is present
-        const scope =
-          answers.scope && answers.scope.trim()
-            ? `(${answers.scope.trim()})`
-            : "";
+          // parentheses are only needed when a scope is present
+          const scope =
+            answers.scope && answers.scope.trim()
+              ? `(${answers.scope.trim()})`
+              : "";
 
-        // brackets are only needed when a issue is present
-        const issue =
-          answers.issue && answers.issue.trim()
-            ? `[${answers.issue.trim()}] `
-            : "";
+          // brackets are only needed when a issue is present
+          const issue =
+            answers.issue && answers.issue.trim()
+              ? `[${answers.issue.trim()}] `
+              : "";
 
-        // Hard limit this line
-        const head = (
-          answers.type +
-          scope +
-          ": " +
-          issue +
-          answers.subject.trim()
-        ).slice(0, maxLineWidth);
+          // Hard limit this line
+          const head = (
+            answers.type +
+            scope +
+            ": " +
+            issue +
+            answers.subject.trim()
+          ).slice(0, maxLineWidth);
 
-        // Wrap these lines at 100 characters
-        const body = wrap(answers.body, wrapOptions);
+          // Wrap these lines at 100 characters
+          const body = wrap(answers.body, wrapOptions);
 
-        // Apply breaking change prefix, removing it if already present
-        const breaking = wrap(
-          answers.breaking && answers.breaking.trim()
-            ? `BREAKING CHANGE: ${answers.breaking
-                .trim()
-                .replace(/^BREAKING CHANGE: /, "")}`
-            : "",
-          wrapOptions
-        );
+          // Apply breaking change prefix, removing it if already present
+          const breaking = wrap(
+            answers.breaking && answers.breaking.trim()
+              ? `BREAKING CHANGE: ${answers.breaking
+                  .trim()
+                  .replace(/^BREAKING CHANGE: /, "")}`
+              : "",
+            wrapOptions
+          );
 
-        commit(head + "\n\n" + body + "\n\n" + breaking);
-      });
+          commit(head + "\n\n" + body + "\n\n" + breaking);
+        })
+        .catch((err) => console.error(err));
     },
   };
 };
