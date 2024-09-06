@@ -10,7 +10,7 @@
     "access": "public"
   },
   "dependencies": {
-    "commitizen": "^4.1.2",
+    "commitizen": "^4.2.5",
     "conventional-commit-types": "^3.0.0",
     "git-branch": "^2.0.1",
     "lodash.map": "^4.5.1",
