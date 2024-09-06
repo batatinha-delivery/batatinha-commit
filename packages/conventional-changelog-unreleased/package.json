@@ -16,7 +16,7 @@
     "mocha": "^3.1.2"
   },
   "dependencies": {
-    "clipboardy": "^2.1.0",
-    "conventional-changelog": "^3.1.18"
+    "clipboardy": "^3.0.0",
+    "conventional-changelog": "^6.0.0"
   }
 }
